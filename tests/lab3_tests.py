@@ -28,5 +28,10 @@ class TestPostorder(unittest.TestCase):
 
 class TreeNode:
  def __init__(self, val):
-   self.val = val
-   self.left = None
+    self.val = val
+    self.left = None
+    self.right = None
+
+# Run tests
+if __name__ == '__main__':
+    unittest.main()
